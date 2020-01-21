@@ -7,7 +7,7 @@ A few things to note:
 - None of the added plants have mutations, as that would be an enormous project and out of scope for me. However, I will accept PRs on GitHub if you'd like to add your own.
 - You do not need to have all the mods listed in order to use these jsons. If a particular mod is not present, content from that mod will simply be ignored.
 
-##Here is a list of all the mods that have had their soils and plants added:
+## Here is a list of all the mods that have had their soils and plants added:
 - Cuisine
 - Farming for Blockheads
 - Growthcraft
