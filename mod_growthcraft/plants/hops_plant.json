@@ -1,12 +1,12 @@
 {
-  "path": "mod_rustic/plants/grapes_plant.json",
+  "path": "mod_growthcraft/plants/hops_plant.json",
   "enabled": true,
-  "id": "rustic:grapes",
-  "plant_name": "Grapes",
-  "seed_name": "Grape Seeds",
+  "id": "growthcraft:hops_seed_plant",
+  "plant_name": "Hops",
+  "seed_name": "Hop Seeds",
   "seed_items": [
     {
-      "item": "rustic:grape_stem",
+      "item": "growthcraft_hops:hop_seeds",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Grapes."
+    "default": "Hops."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
@@ -38,7 +38,7 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "rustic:grapes",
+        "item": "growthcraft_hops:hops",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -67,12 +67,12 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "rustic:items/grape_seeds",
+    "seed_texture": "growthcraft_hops:items/hop_seeds",
     "plant_textures": [
-      "rustic:blocks/grape_stem_0",
-      "rustic:blocks/grape_stem_1",
-      "rustic:blocks/grape_stem_2",
-      "rustic:blocks/grapes"
+      "growthcraft_hops:blocks/hops_vine_stage0",
+      "growthcraft_hops:blocks/hops_vine_stage1",
+      "growthcraft_hops:blocks/leaves",
+      "growthcraft_hops:blocks/leaves_fruits"
     ]
   }
 }

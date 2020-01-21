@@ -1,5 +1,5 @@
 {
-  "path": "mod_growthcraft/thistle_plant.json",
+  "path": "mod_growthcraft/plants/thistle_plant.json",
   "enabled": true,
   "id": "growthcraft:thistle_seed_plant",
   "plant_name": "Thistle",

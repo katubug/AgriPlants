@@ -7,7 +7,7 @@
   "seed_items": [
     {
       "item": "cuisine:crops",
-      "meta": 3,
+      "meta": 4,
       "tags": "",
       "ignoreMeta": false,
       "ignoreTags": [
