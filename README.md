@@ -1,26 +1,26 @@
-# AgriPlants
+# AgriCompat
 
-Agricultural plants extended.
+This project adds Agricraft support for a handful of new mods.
 
-CurseForge: [CurseForge](http://minecraft.curseforge.com/mc-mods/225635-agricraft)
+A few things to note:
+- If the soil grants a bonus of any kind (such as faster growth or higher yield), it may not affect the Crop Sticks or what is planted on them. However, bonuses like not requiring water, or being unable to be trampled, should work just fine.
+- None of the added plants have mutations, as that would be an enormous project and out of scope for me. However, I will accept PRs on GitHub if you'd like to add your own.
+- You do not need to have all the mods listed in order to use these jsons. If a particular mod is not present, content from that mod will simply be ignored.
 
-FTB Thread: [FTB Thread](http://forum.feed-the-beast.com/threads/1-7-10-agricraft.50964/)
+##Here is a list of all the mods that have had their soils and plants added:
+- Cuisine
+- Farming for Blockheads
+- Growthcraft
+- Some additional HarvestCraft items
+- Mystical World
+- Roots
+- Rustic
+- Silent's Gear
+- Silent's Gems
+- XL Food Mod
 
-## Contact
+In addition, it fixes an issue with the Inferium seeds from Mystical Agriculture (thanks to cebbyS from the AgriCraft discord!). It also changes the amount of output from the tiered Inferium crops: current default behavior is that all Inferium plants have the same yield range, this will make the higher tiers actually give you more essence. Additionally, each tier has a chance of generating one extra essence, compared to planting them normally.
 
-I have a Slack channel where you can contact me for support/suggestions which you don't think fit on this issue tracker. Also if you want to discuss something with me, this is the place to be: [Join my Slack](https://join-infinityraider-slack.herokuapp.com)
+To download AgriCraft itself, click here: https://www.curseforge.com/minecraft/mc-mods/agricraft
 
-
-## Bug reports
-
-Please report any and all bugs you might encounter while playing with this mod. Suggestions are also welcome.
-However before reporting a bug please update to the latest version of the mod to see if it still persists.
-If you want to post bug reports for older versions, make sure to tell me what version you are using and the version of Forge you are using.
-If you report a bug and I request more feedback, the label 'Awaiting reply' will be added, if I have had no response for 5 days after adding that label, the issue will be closed.
-
-
-## Technical Documentation
-
-AgriCraft internals (such as MineTweaker3 integration) are documented here in the GitHub Wiki
-([Link](https://github.com/InfinityRaider/AgriCraft/wiki)). Reason is that
-this kind of information is, most of the time, only needed by pack creators and not the average user.
+If your pack has Serene Seasons, you may wish to check out AgriSeasons: https://www.curseforge.com/minecraft/mc-mods/agriseasons
