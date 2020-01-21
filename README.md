@@ -8,13 +8,13 @@ A few things to note:
 - You do not need to have all the mods listed in order to use these jsons. If a particular mod is not present, content from that mod will simply be ignored.
 
 ## Here is a list of all the mods that have had their soils and plants added:
-- Cuisine
+- Cuisine *
 - Farming for Blockheads
-- Growthcraft
+- Growthcraft *
 - Some additional HarvestCraft items
 - Mystical World
 - Roots
-- Rustic
+- Rustic *
 - Silent's Gear
 - Silent's Gems
 - XL Food Mod
@@ -24,3 +24,5 @@ In addition, it fixes an issue with the Inferium seeds from Mystical Agriculture
 To download AgriCraft itself, click here: https://www.curseforge.com/minecraft/mc-mods/agricraft
 
 If your pack has Serene Seasons, you may wish to check out AgriSeasons: https://www.curseforge.com/minecraft/mc-mods/agriseasons
+
+* Some crops in these mods are not compatible with crop sticks due to their unusual growth stage textures.
