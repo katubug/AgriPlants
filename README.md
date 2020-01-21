@@ -21,8 +21,15 @@ A few things to note:
 
 In addition, it fixes an issue with the Inferium seeds from Mystical Agriculture (thanks to cebbyS from the AgriCraft discord!). It also changes the amount of output from the tiered Inferium crops: current default behavior is that all Inferium plants have the same yield range, this will make the higher tiers actually give you more essence. Additionally, each tier has a chance of generating one extra essence, compared to planting them normally.
 
+## To install these files:
+- Open your modpack instance and navigate to the folder `/config/agricraft/json/defaults/`
+- Copy the files from this datapack into that directory, and allow them to overwrite the existing files.
+- Start/Restart your client to see the changes.
+
 To download AgriCraft itself, click here: https://www.curseforge.com/minecraft/mc-mods/agricraft
 
 If your pack has Serene Seasons, you may wish to check out AgriSeasons: https://www.curseforge.com/minecraft/mc-mods/agriseasons
 
 * Some crops in these mods are not compatible with crop sticks due to their unusual growth stage textures.
+
+## If you have issues with this datapack, please report them here, not to the AgriCraft author!
