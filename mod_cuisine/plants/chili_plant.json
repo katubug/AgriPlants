@@ -1,13 +1,13 @@
 {
-  "path": "mod_mysticalagriculture/plants/tier3_inferium_plant.json",
+  "path": "mod_cuisine/plants/chili_plant.json",
   "enabled": true,
-  "id": "mysticalagriculture:tier3_inferium_plant",
-  "plant_name": "Tier3 Inferium Crop",
-  "seed_name": "Tier3 Inferium Seeds",
+  "id": "cuisine:chili_plant",
+  "plant_name": "Chili",
+  "seed_name": "Chili",
   "seed_items": [
     {
-      "item": "mysticalagriculture:tier3_inferium_seeds",
-      "meta": 0,
+      "item": "cuisine:crops",
+      "meta": 5,
       "tags": "",
       "ignoreMeta": false,
       "ignoreTags": [
@@ -18,11 +18,11 @@
   ],
   "description": {
     "translations": {},
-    "default": "Tier3 Inferium Seeds."
+    "default": "A plantable Chili."
   },
   "growth_chance": 0.9,
   "growth_bonus": 0.025,
-  "bonemeal": false,
+  "bonemeal": true,
   "tier": 1,
   "weedable": false,
   "aggressive": false,
@@ -38,8 +38,8 @@
         "max": 5,
         "chance": 0.9,
         "required": true,
-        "item": "mysticalagriculture:crafting",
-        "meta": 0,
+        "item": "cuisine:crops",
+        "meta": 5,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],
@@ -51,22 +51,18 @@
     "min_light": 10,
     "max_light": 16,
     "soils": [
-      "farmland_soil"
+      "soul_sand_soil"
     ],
     "conditions": []
   },
   "texture": {
-    "render_type": "cross",
-    "seed_texture": "mysticalagriculture:items/inferium_seeds",
+    "render_type": "hash",
+    "seed_texture": "cuisine:item/chili",
     "plant_textures": [
-      "mysticalagriculture:blocks/crop0",
-      "mysticalagriculture:blocks/crop1",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop3",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/inferium_crop"
+      "cuisine:block/chili_stage_0",
+      "cuisine:block/chili_stage_1",
+      "cuisine:block/chili_stage_2",
+      "cuisine:block/chili_stage_3"
     ]
   }
 }
